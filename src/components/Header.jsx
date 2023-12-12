@@ -66,7 +66,7 @@ function HeaderFooter() {
         </p>
         <div className="social-media-container">
         <a href="https://github.com/Priyanshi662"target="blank" rel="noreferrer" ><FaGithub className="github-icon" style={{borderRadius:"50%"}}></FaGithub></a>
-        <a href="https://www.linkedin.com/in/juan-villegas-a84b7325b/" target="blank" rel="noreferrer"><FaLinkedin className="linkedin-icon" ></FaLinkedin></a>
+        <a href="https://www.linkedin.com/in/priyanshi-jain-a26077201/" target="blank" rel="noreferrer"><FaLinkedin className="linkedin-icon" ></FaLinkedin></a>
         </div>
     <ButtonMove container={"projects-container"}>Projects</ButtonMove>
       </footer>
