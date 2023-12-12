@@ -20,7 +20,11 @@
     /* background-image: linear-gradient(#011F4B, #0365F5); */
     overflow-x: hidden;
   }
-  
+  h4{
+    padding: 20px;
+    font-size: 3.5 rem;
+    align-items: end;
+  }
   #root{
     background: rgb(210,255,244);
     background: linear-gradient(90deg, rgba(210,255,244,0.21536536978072474) 0%, rgba(255,215,255,0.4198471624978116) 51%, rgba(210,255,244,0.2405754538143382) 100%);
