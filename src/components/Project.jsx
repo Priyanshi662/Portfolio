@@ -14,7 +14,7 @@ export function Projects() {
     {
       title: "Fun fusion",
       img: funfusion,
-      page: "https://juandvp0303.github.io/Tic-Tac-Toe-With-REACT/",
+      page: "https://fun-fusion.onrender.com/",
       repo: "https://github.com/Priyanshi662/FunFusion",
       description: "Different applications made for entertainment purposes",
     },
