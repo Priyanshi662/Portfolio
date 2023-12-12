@@ -289,10 +289,10 @@
   
   .aboutMe-text .typing-mode {
     display: block;
-    width: 10ch;
-    border-right: 4px solid;
+    width: 12ch;
+    border-right: 5px solid;
     white-space: nowrap;
-    animation: typing 2s steps(10), blink 0.5s infinite step-end alternate;
+    animation: typing 2s steps(12), blink 0.5s infinite step-end alternate;
     overflow: hidden;
   }
   
@@ -322,57 +322,7 @@
     border-radius: 1.5rem;
     object-fit: cover;
   }
-  /*Experiencias*/
-  .experience-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 5rem 0;
-  }
-  
-  .experience-section > div{
-    display: flex;
-    margin-top: 2rem;
-    gap: 4rem;
-    flex-wrap: wrap;
-  }
-  .experience-section > h2{
-    font-size: 2.4rem;
-    color: var(--dark-blue);
-    text-decoration: underline;
-  }
-  
-  .experience-section article{
-    padding: 1.5rem;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    background-color: white;
-    max-width: 40rem;
-  }
-  
-  .experience-section article h2{
-    font-size: 2.2rem;
-    text-align: center;
-    margin-bottom: 1rem;
-    color: var(--blue);
-  }
-  
-  .experience-section article h3{
-    opacity: 0.5;
-    font-size: 1.8rem;
-  }
-  
-  .experience-section article p{
-    font-size: 1.6rem;
-    width: 100%;
-  }
-  
-  .experience-section article img{
-    width: 100%;
-    /* max-width: 32rem; */
-  }
-  
-  
-  /*Proyectos*/
+  /*Projects*/
   
   .projects-section {
     margin-top: 10rem;
