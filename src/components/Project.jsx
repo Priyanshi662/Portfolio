@@ -12,6 +12,13 @@ export function Projects() {
       description: "A hospitality exchange service with a seamless user experience, buy and rent rooms all across the globe",
     },
     {
+      title:"Melody mix",
+      // img:,
+      // page: "",
+      repo:"https://github.com/Priyanshi662/MelodyMix",
+      description:"A music app where users can listen to music, save music to their accounts and also create awesome playlists."
+    },
+    {
       title: "Fun fusion",
       img: funfusion,
       page: "https://fun-fusion.onrender.com/",

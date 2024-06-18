@@ -1,10 +1,8 @@
 import { HiCode } from "react-icons/hi";
-import {FaGithub, FaLinkedin} from "react-icons/fa"
-import { ButtonMove, NavbarButton } from "./ButtonMove";
+// import {FaGithub, FaLinkedin} from "react-icons/fa"
+import { NavbarButton } from "./ButtonMove";
 import { useState } from "react";
 import propTypes from "prop-types"
-
-
 
 export function Header() {
   return (
@@ -52,24 +50,31 @@ export function HeaderNav() {
     </>
   );
 }
-
-function HeaderFooter() {
+function HeaderFooter()
+{
   return (
     <>
       <footer className="navbar-footer">
-        <p>
-          Hello World <span className="greetings">👋🏼</span>
-        </p>
-        <h1>Priyanshi Jain</h1>
-        <p>
-          Passionate about creating interactive and engaging experiences for users.
-        </p>
-        <div className="social-media-container">
-        <a href="https://github.com/Priyanshi662"target="blank" rel="noreferrer" ><FaGithub className="github-icon" style={{borderRadius:"50%"}}></FaGithub></a>
-        <a href="https://www.linkedin.com/in/priyanshi-jain-a26077201/" target="blank" rel="noreferrer"><FaLinkedin className="linkedin-icon" ></FaLinkedin></a>
-        </div>
-    <ButtonMove container={"projects-container"}>Projects</ButtonMove>
       </footer>
     </>
-  );
+  )
 }
+// function HeaderFooter() {
+//   return (
+//     <>
+//       <footer className="navbar-footer">
+{/* <p>
+Hello World <span className="greetings">👋🏼</span>
+</p>
+<h1>Priyanshi Jain</h1>
+<p>
+Passionate about creating interactive and engaging experiences for users.
+</p>
+<div className="social-media-container">
+<a href="https://github.com/Priyanshi662"target="blank" rel="noreferrer" ><FaGithub className="github-icon" style={{borderRadius:"50%"}}></FaGithub></a>
+<a href="https://www.linkedin.com/in/priyanshi-jain-a26077201/" target="blank" rel="noreferrer"><FaLinkedin className="linkedin-icon" ></FaLinkedin></a>
+</div> */}
+//       </footer>
+//     </>
+//   );
+// }
