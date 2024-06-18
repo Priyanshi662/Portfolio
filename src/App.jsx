@@ -1,6 +1,7 @@
 import { Header } from "./components/Header"
 import { Content } from "./components/Content"
 import { Projects} from "./components/Project"
+import { Opensourceprogs } from "./components/OpenSourceWork"
 import { Skills }  from "./components/Skill"
 import './App.css'
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <Header/>
     <Content/>
     <Projects/>
+    <Opensourceprogs/>
     <Skills/>
     </>
   )

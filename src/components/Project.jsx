@@ -75,8 +75,8 @@ function ProjectsCards({ title, img, repo, page, description }) {
 
 ProjectsCards.propTypes = {
   title: propTypes.string.isRequired,
-  img: propTypes.string.isRequired,
+  // img: propTypes.string.isRequired,
   repo: propTypes.string.isRequired,
-  page: propTypes.string.isRequired,
+  // page: propTypes.string.isRequired,
   description: propTypes.string.isRequired,
 };
